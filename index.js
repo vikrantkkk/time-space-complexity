@@ -2,12 +2,12 @@
 let i = 0,
   j = 0,
   k = 0;
-for (i = Math.floor(n / 2); i <= n; i++) {
-  for (j = 2; j <= n; j = j * 2) {
+for (i = Math.floor(n / 2); i <= n; i++) { 
+  for (j = 2; j <= n; j = j * 2) { 
     k = k + Math.floor(n / 2);
   }
 }
-// ans : O(nlogn)---timecomplexity
+// ans : O(logn)---timecomplexity
 // ans :O(1)----spacecomplexity
 
 
